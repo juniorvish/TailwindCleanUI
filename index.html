@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindCleanUI</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="bg-blue-50">
+    <div class="container mx-auto">
+        <header class="text-center py-5">
+            <h1 class="text-4xl font-bold text-blue-700">TailwindCleanUI</h1>
+        </header>
+        <nav id="sidebar" class="w-64 h-full fixed top-0 left-0 bg-blue-700 text-white">
+            <ul>
+                <li><a href="sidebar/home.html" class="block py-3 px-4 hover:bg-blue-600">Home</a></li>
+                <li><a href="sidebar/contacts.html" class="block py-3 px-4 hover:bg-blue-600">Contacts</a></li>
+                <li><a href="sidebar/customers.html" class="block py-3 px-4 hover:bg-blue-600">Customers</a></li>
+                <li><a href="sidebar/accounts.html" class="block py-3 px-4 hover:bg-blue-600">Accounts</a></li>
+            </ul>
+        </nav>
+        <main class="pl-64 py-5">
+            <section id="graphs" class="grid grid-cols-2 gap-4">
+                <div id="bar-chart">
+                    <a href="graphs/bar_chart.html" class="block w-full h-64 bg-white rounded shadow p-4">Bar Chart</a>
+                </div>
+                <div id="pie-chart">
+                    <a href="graphs/pie_chart.html" class="block w-full h-64 bg-white rounded shadow p-4">Pie Chart</a>
+                </div>
+            </section>
+            <section id="tables" class="mt-5">
+                <div id="invoices-table">
+                    <a href="tables/invoices.html" class="block w-full h-64 bg-white rounded shadow p-4">Invoices</a>
+                </div>
+                <div id="aged-payables">
+                    <a href="tables/aged_payables.html" class="block w-full h-64 bg-white rounded shadow p-4">Aged Payables</a>
+                </div>
+                <div id="total-revenue">
+                    <a href="tables/total_revenue.html" class="block w-full h-64 bg-white rounded shadow p-4">Total Revenue</a>
+                </div>
+                <div id="pnl">
+                    <a href="tables/pnl.html" class="block w-full h-64 bg-white rounded shadow p-4">PnL</a>
+                </div>
+                <div id="income-sources">
+                    <a href="tables/income_sources.html" class="block w-full h-64 bg-white rounded shadow p-4">Income Sources</a>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
